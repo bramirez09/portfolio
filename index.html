@@ -5,30 +5,14 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="/Users/brendaramirez/bootcamp/challenges/portfolio/assets/style.css" />
     <title>Brenda Ramirez Portfolio</title>
-    <style>
-        body{
-            background-color: rgb(227, 200, 160);
-        }
-        a:link, a:visited {
-            background-color: rgb(227, 200, 160);
-            color: black;
-            border: 2px solid black;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-        a:hover, a:active {
-            background-color: rgb(209, 178, 132);
-            color: black;
-        }
-    </style>
+
 </head>
 
 <body>
-    <header class="header">
+    <!--top section of page - includes avatar, name and links to section on page-->
+    <header>
         <img src="/Users/brendaramirez/bootcamp/challenges/portfolio/images/avatar3.png" 
-        style="float: left;"
+        style="float: left;" alt="minimal line avatar image"
          />
         <h1>Brenda Ramirez</h1>
         <nav class="links">
@@ -41,20 +25,25 @@
             </ul>
         </nav>
     </header>
-
+<!--main section of page -->
     <main class="content">
         <section id="about me">
             <h2>About Me</h2>
-            <p>Placeholder for about me section</p>
+            <p>I was born and raised in Dallas, Texas and recently moved to San Antonio. My hobbies include yoga, meditation, reading and try to keep my plants alive. I received my bachelors in Business Administration from Texas Womens University and currently a senior qa tester for an agtech company. I have a background in implementations and software solutions making me efficient in understanding, implementing and testing software as a service applications. I am passionate about learning and expanding my skills sets. </p>
         </section>
         <section id="work">
-            <h2>Work</h2>          
-            <p>Placeholder for work section</p>
+            <h2>Work</h2>
+            <div class="horiseon">        
+                <a href="https://bramirez09.github.io/horiseon-refactor/"><img src="/Users/brendaramirez/bootcamp/challenges/portfolio/images/horiseon.png" class="bigbox" alt="horiseon project screenshot"/></a>
+            </div>
+            <div class="flowerpic">
+                <img src="/Users/brendaramirez/bootcamp/challenges/portfolio/images/extrapicture.png" class = "extrapic" alt="flower picture,no link"/>
+            </div>
         </section>
         <section id="contact me">
             <h2>Contact Me</h2>
             <li>
-                <a href="bramirez09@icloud.com">Email</a>
+                <a class="email">bramirez09@icloud.com</a>
                 <a href="https://github.com/bramirez09">Github</a>
                 <a href="https://www.linkedin.com/in/brenda-ramirez-247a46140/">LinkedIn</a>
             </li>  

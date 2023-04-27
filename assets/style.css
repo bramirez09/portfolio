@@ -1,10 +1,29 @@
+/*whole page formating*/
 * {
-    margin:0;
-    padding:0;  
+    margin:5px;
+    padding:5px;  
     font-family: fantasy;
   }
   
-  .header {
+  body{
+    background-color: rgb(227, 200, 160);
+}
+/* top part of header and links */
+a:link, a:visited {
+    background-color: rgb(227, 200, 160);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: rgb(209, 178, 132);
+    color: black;
+}
+  
+  header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(227, 200, 160);
@@ -13,17 +32,53 @@
     justify-content: space-between;
     align-items: center;  
 }
-
+/* pictures in the work section */
 img {
   background-blend-mode: screen;
-  width: 50px;
-  height: 100px;
+  width: 75px;
+  height: 125px;
+}
+.bigbox {
+  width: 80%;
 }
 
+.extrapic {
+  background-color: rgb(227, 200, 160);
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
+.horiseon {
+  flex-wrap: wrap;
+}
+
+.flowerpic {
+  flex-wrap: wrap;
+}
+/* paragraph in the about me section */
+section{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 80%;
+}
 
 .content {
   width: 80%;
-  display:inline-block;
   text-align: center;
-  
+}
+/*contact me links*/
+.email {
+  background-color: rgb(227, 200, 160);
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+   #contact {
+      float: none;
+      width: 100%;
+    }
 }
