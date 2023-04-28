@@ -34,7 +34,7 @@ header {
 }
 /* pictures in the work section */
 
-.avatar {
+img {
   width: 75px;
   height: 175px;
 }
@@ -56,6 +56,7 @@ header {
 .flowerpic {
   flex-wrap: wrap;
 }
+
 /* paragraph in the about me section */
 section{
   display:flex;
