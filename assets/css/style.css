@@ -23,7 +23,7 @@ a:hover, a:active {
     color: black;
 }
   
-  header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(227, 200, 160);
@@ -33,11 +33,12 @@ a:hover, a:active {
     align-items: center;  
 }
 /* pictures in the work section */
-img {
-  background-blend-mode: screen;
+
+.avatar {
   width: 75px;
-  height: 125px;
+  height: 175px;
 }
+
 .bigbox {
   width: 80%;
 }
